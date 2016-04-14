@@ -61,6 +61,8 @@
 @property (nonatomic, strong) UIColor *toolbarBarTintColor;
 @property (nonatomic, strong) UIColor *backgroundColor;
 
+@property (nonatomic, strong) NSString *doneButtonTitle;
+
 // Customise image selection icons as they are the only icons with a colour tint
 // Icon should be located in the app's main bundle
 @property (nonatomic, strong) NSString *customImageSelectedIconName;
